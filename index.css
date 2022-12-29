@@ -16,6 +16,21 @@ header{
 ul{
 		text-align: center;
 		align-items: center;
+		margin: 0 auto;
+		padding: 2em;
+		max-width: 140px;
+		list-style: none;
+}
+ul > li{
+		text-align: center;
+		align-items: center;
+		background-color: orange;
+		border-radius: 10em;
+		margin: .5em 0;
+		border: 1px solid green;
+		color: green;
+		font-weight: bold;
+
 }
 header > h1 {
 		color: green;
@@ -25,5 +40,10 @@ header > h1 {
 		font-weight: bold;
 		border-radius: 1em;
 		padding: 0.3em 0.6em;
-		border: 1px solid black;
+		border: 1px solid green;
+}
+header > img{
+		width: 6em;
+		height: 6em;
+		border-radius: 100%;
 }
