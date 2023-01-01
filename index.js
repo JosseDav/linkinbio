@@ -5,9 +5,9 @@ links = {"insta":["https://www.instagram.com/josse_and_the_larvitars/?hl=en", ".
     "github": ["https://github.com/JosseDav", "./images/github.svg", "Git Hub"]
 }
 keys = Object.keys(links);
-function function1() {
+function populateUL() {
     var ul = document.getElementById("list");
-    for(let i = 0; i < 5; i++){
+    for(let i = 0; i < keys.length; i++){
         var li = document.createElement("li");
         li.innerHTML = '<img src="./images/pokeball.svg" width="20"/>'
             + '<img src="' + links[keys[i]][1] + '"width="20"/>'
