@@ -8,7 +8,11 @@ function populateUL() {
                 var li = document.createElement("li")
                 li.innerHTML = `<img src="./images/pokeball.svg" width="20"/> <img src="${json[keys].image}" width="20"/> 
                 <a href  = "${json[keys].link}">${json[keys].title}</a>`
+<<<<<<< HEAD
                 li.setAttribute("id", "element4")
+=======
+                li.setAttribute("id", "items")
+>>>>>>> 5b89b0a (- added favicon.io file)
                 ul.appendChild(li)
             })
         }
