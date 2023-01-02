@@ -6,10 +6,8 @@ function populateUL() {
         (json) => {
             Object.keys(json).forEach(keys => {
                 var li = document.createElement("li")
-                li.innerHTML = '<img src="./images/pokeball.svg" width="20"/>'
-                + '<img src="' + json[keys].image  + '"width="20"/>'
-                + '<a href  = "' + json[keys].link + '"> '
-                + json[keys].title + '</a>'
+                li.innerHTML = `<img src="./images/pokeball.svg" width="20"/> <img src="${json[keys].image}" width="20"/> 
+                <a href  = "${json[keys].link}">${json[keys].title}</a>`
                 li.setAttribute("id", "element4")
                 ul.appendChild(li)
             })
