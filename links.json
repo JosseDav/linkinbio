@@ -1,6 +1,22 @@
 {
-    "insta": ["https://www.instagram.com/josse_and_the_larvitars/?hl=en", "./images/insta.svg", "Instagram"],
-    "linkedin": ["https://www.linkedin.com/in/josse-davila/", "./images/linkedin.png", "LinkedIn"],
-    "twitter": ["https://twitter.com/Reversenameman", "./images/Twitter-logo.svg", "Twitter"],
-    "github": ["https://github.com/JosseDav", "./images/githun.svg", "Git Hub"]
+    "insta": {
+        "link": "https://www.instagram.com/josse_and_the_larvitars/?hl=en",
+        "image":"./images/insta.svg",
+        "title": "Instagram"
+    },
+    "linkedin": {
+        "link": "https://www.linkedin.com/in/josse-davila/", 
+        "image": "./images/linkedin.png", 
+        "title": "LinkedIn"
+    },
+    "twitter": {
+        "link": "https://twitter.com/Reversenameman", 
+        "image": "./images/Twitter-logo.svg", 
+        "title": "Twitter"
+    },
+    "github": {
+        "link": "https://github.com/JosseDav", 
+        "image": "./images/github.svg", 
+        "title": "Git Hub"
+    }
 }
